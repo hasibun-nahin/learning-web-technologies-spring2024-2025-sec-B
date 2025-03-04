@@ -1,0 +1,65 @@
+/*-----some usefull css start-----*/
+*{
+    margin: 0%;
+    padding:0%
+}
+.container{
+    width: 442px;
+    background-color: rgb(46, 53, 123);
+    margin: 10% auto;
+}
+input{
+    width: 213px;
+    height: 30px;}
+h1{
+    color: azure;
+}
+h6{
+    color: white
+}
+/*-----some usefull css start-----*/
+
+
+.inputList h1{
+    margin-bottom: 10px;
+}
+.inputList h6{
+    margin-bottom: 5px;
+    color: aliceblue;
+}
+.Unames{
+    display: flex;
+    justify-content:space-between;
+}
+.Unames input{
+    width: 213px;
+    height: 30px;
+    
+}
+.contracts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.personalInfo{
+    display: flex;
+    justify-content:space-between;
+
+}
+.pass{
+    display: flex;
+    justify-content:space-between;
+}
+button{
+    margin-top: 2px;
+    width: 442px;
+
+}
+button:hover{
+   background:purple;
+   border-radius:20px;
+   color: antiquewhite;
+}
+
+
+
