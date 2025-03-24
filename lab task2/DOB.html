@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date of Birth Validation</title>
+    <script>
+        function validateDOB() {
+            let day = document.getElementById("day").value;
+            let month = document.getElementById("month").value;
+            let year = document.getElementById("year").value;
+
+            if (day === "" || month === "" || year === "") {
+                alert("Date of Birth fields cannot be empty.");
+                return false;
+            }
+
+            day = parseInt(day, 10);
+            month = parseInt(month, 10);
+            year = parseInt(year, 10);
+
+            if (day < 1 || day > 31 || month < 1 || month > 12 || year < 1900 || year > 2016) {
+                alert("Please enter a valid date (dd: 1-31, mm: 1-12, yyyy: 1900-2016).");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <fieldset>
+       <legend> <h2>Date of Birth Form</h2></legend>
+        <form onsubmit="return validateDOB()">
+            <label for="dob">Date of Birth:</label>
+            <input type="text" id="day" name="day" placeholder="dd" size="2"> /
+            <input type="text" id="month" name="month" placeholder="mm" size="2"> /
+            <input type="text" id="year" name="year" placeholder="yyyy" size="4">
+            <button type="submit">Submit</button>
+        </form>
+    </fieldset>
+   
+</body>
+</html>
