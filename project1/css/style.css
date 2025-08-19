@@ -1,0 +1,512 @@
+/*------font links-----*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Belleza&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Adamina&family=Belleza&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Adamina&family=Belleza&family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Adamina&family=Belleza&family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap');
+/*------common css part start-----*/
+
+*{
+    margin: 0%;
+    padding:0%
+}
+img{
+    width: 100%;
+    max-width: 100%;
+} 
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+   
+.container{
+    width: 1340px;
+    margin: 0 auto;
+   
+    
+}
+ul,ol{
+    list-style: none;
+}
+
+/*------common css part end-----*/
+/*------navbar part sstart------*/
+#main_menu{
+    padding: 28px 0;
+
+}
+.textlogo img{
+    width: 115px;
+  
+}
+.menurow{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   
+}
+.menuitems ul{
+    display: flex;
+    gap: 45px;
+    padding: 28px; 
+    
+}
+.menuitems ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Quicksand", sans-serif ;
+    color: #000;
+}
+.menu_icon button{
+    width: 24px;
+    margin-right: 33px;
+    
+}
+.menu_icon button :hover{
+    color: blue;
+}
+.menu_icon a{
+    width: 24px;
+    margin-right: 33px;
+    color: #000;
+}
+.menu_icon a :hover{
+    color: blue;
+}
+
+
+
+
+/*------navbar part end------*/
+/*------banner part sstart------*/
+#banner{
+     position: relative;
+     top: 0%;
+     right:0%;
+}
+
+
+
+.banner_text h1{
+    font-size: 86px;
+    font-weight: 400;
+    color: #010101;
+    font-family:"Belleza", sans-serif; ;
+    
+}
+.banner_text a{
+    width: 178px;
+    height: 55.7px;
+    background-color: #010101;
+    color: #ffffff;
+    padding: 14.29 auto;
+    font-size: 19.62px;
+    font-weight: 400;
+    font-family:"Adamina", serif;
+    border-radius: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+    margin-bottom: 77px;
+   
+}
+.banner_text .pera1{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Adamina", serif;
+    margin-bottom: 33px;
+}
+.banner_text .pera2{
+    margin-top: 33px;
+    margin-bottom: 62px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Adamina", serif;
+}
+.font_image .fontimage img{
+    width: 190px;
+   
+   
+}
+.font_image .fontimage2 img{
+    width: 114px;
+
+}
+.font_image{
+    display: flex;
+    gap: 90px; 
+
+}
+.bannerimage{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+} 
+.bannerimage img{
+    width: 667px;
+   
+}
+/*------plant care part start-----*/
+#plants{
+    padding-top: 83px;
+}
+.pantcareRow{
+    display: flex;
+    gap:90px;   
+   
+}
+.plants_text1 p {
+    font-size: 24px;
+    font-weight: 400;
+    font-family:"Abel", sans-serif;
+    color: #000;
+    margin-top: 142px ;
+
+}
+.plants_text2 h3{
+    font-weight:500;
+    width: 627px;
+    font-size: 36px;
+    color: #000;
+    font-family:"Lora", serif ;
+    margin-top: 142px;
+  
+}
+.plants_text2 a{
+    font-weight: 400;
+    width: 152px;
+    font-size: 20px;
+    font-family: "Adamina", serif ;
+    color: #000;
+    margin-top: 86px;
+   
+}
+.everythingTogether{
+  background-color:#EDEDED;
+  width: 100%;
+  height: 436px;
+  position: relative; 
+  margin-top: 153px;
+  
+}
+.everythingTogether .together_img {
+    position: absolute;
+    top: 15%;
+    transform: translateY(-50%);
+    
+
+}
+.together_img img{
+    width: 1340px;
+    height: 572px;
+}
+.everythingTogether h3{
+   font-family: "Lora", serif;
+   width: 468px;
+   font-weight: 500;
+   color: #000;
+   font-size: 36px;
+   position: absolute;
+   bottom: 5%;
+   left: 50%;
+   transform: translateX(-50%);
+
+}
+/*------plant care part end -----*/
+/*------best seller part start -----*/
+.bestseller_text p{
+    font-family:"Adamina", serif ;
+    font-weight: 400;
+    font-size: 20px;
+    width: 130px;
+    
+    padding-top: 114px;
+}
+.bestseller_text h4{
+    width: 526px;
+    font-weight: 500;
+    font-size: 48px;
+    color: #000;
+    font-family: "Lora", serif;
+    margin-bottom: 37px;
+    margin-top: 34px;
+}
+.bestseller_text a{  
+   padding:11px 44px;
+   background: #010101;
+   border-radius: 29px;
+   font-size: 15px;
+   font-weight: 400;
+   font-family:"Adamina", serif ;
+   color: #ffffff;
+}
+.productcard_row .singleproduct{
+    width: 368px;
+    margin-top: 50px;
+    margin-right: 44px; 
+}
+.productcard_row{
+    display: flex;
+   
+}
+.singleproductText{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.singleproductText p {
+    font-family:"Adamina", serif ;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.singleproduct{
+    position: relative;
+    overflow: hidden;
+}
+
+.imgOverly{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #00000029;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    transform: scale(0);
+    transition: all linear .2s;
+    top:-100%;
+
+}
+.singleproduct:hover .imgOverly{
+    transform: scale(1.1);
+    top: 0;
+
+}
+
+
+.imgOverly button{
+    background: transparent;
+    border: none;
+    color: #EDEDED;
+    font-size: 20px;
+    font-weight: 500;
+} 
+.imgOverly a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #EDEDED;
+}
+/*-------review part start -----*/
+#review{
+    padding-top: 178px;
+}
+.textRow {
+    display: flex;
+    gap: 183px;
+}
+.textReview h2{
+    font-family:"Adamina", serif ;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+.textReview .review2{
+    font-family:"Abel", sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+    width: 262px;
+    margin-top: 23px;
+}
+
+.starList ul{
+    margin-top: 10px;
+    color: #DEEC3C;
+    width: 25px;
+    gap: 6px;
+    display: flex;
+}
+.textReview .starList{
+    display: flex;
+    align-items: center;
+    
+    gap: 17px;
+
+}
+
+.starList p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 23px;
+    font-family:"Abel", sans-serif ;
+    color: #000;
+    margin-top: 11px;
+    margin-left: 81px;
+
+}
+.reviewText{
+    font-family: "Adamina", serif ;
+    font-weight: 400;
+    width: 84px;
+    font-size: 13px;
+    margin-top: 15px;
+
+}
+.reviewText2 h3{
+    font-family:"Lora", serif;
+    font-weight: 500;
+    font-size: 36px;
+    width: 676px;
+
+}
+.reviewText2 h6{
+    width: 107px;
+    font-family:"Lora", serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 59px;
+
+
+}
+.reviewText2 p{
+    width: 107px;
+    font-family:"Abel", sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 11px;
+} 
+.imageonly{
+    display: flex;
+    gap: 60px; 
+}
+.imageonly img{
+    width: 500px;
+}
+.imageonly #next{
+    width: 780px;
+}
+/*------textimage part start------*/
+
+#textImg{
+    padding: 50px;
+
+}
+.treepic  {
+    height: 746px;
+    background: url(../picture/Frame\ 36\ \(1\).png);
+    padding-top: 72px;
+    padding-left: 116px;
+}
+
+.treepic h3{
+    width: 401px;
+    font-family:"Lora", serif;
+    font-weight: 500;
+    font-size: 48px; 
+}
+    
+.treepic p{
+    width: 286px;
+    font-family:"Abel", sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 9px;
+   
+   
+}
+.treepic a{
+    font-family: "Adamina", serif ;
+    font-weight: 400;
+     
+    font-size: 20px;
+    
+     color: #000;
+     display: flex;
+     gap: 30px;
+     padding-top: 7px;
+}
+.treepic span{
+  width: 24px ;
+  height: 24px;
+  background-color: #000;
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.stayupdate{
+    display: flex;
+    align-items: end;
+    gap: 208px;
+}
+.stayupdate h2{
+    width: 706px;
+    font-family:"Lora", serif;
+    font-weight: 500;
+    font-size: 48px; 
+    color: #000;
+    padding-top: 50px;
+
+}
+.mail {
+    width: 426px;
+    color: #000;
+    border-bottom: 2px #000 solid;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+.mail button{
+    padding: 10px 29px ;
+    border-radius: 26px;
+    background: #000;
+    font-family: "Adamina", serif ;
+    font-weight: 400;
+     
+    font-size: 14px;
+    
+     color: #ffffff
+}
+.mail input{
+    width: 65%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:"Abel", sans-serif ;
+    color: #000;
+}
+/*--------footer part start-----*/
+#footer{
+    background: #F3F3F3;
+   
+    padding-top: 60px;
+    padding-bottom: 63px;
+}
+.footerItems {
+    display: flex;
+}
+.footermenuItem ul{
+    display: flex;
+    gap: 59px;
+    margin-left: 372px;
+}
+    
+.footermenuItem ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Quicksand", sans-serif;
+
+}
+.footerIcons ul{
+    display: flex;
+    gap: 60px;
+    margin-left: 318px;
+}
